@@ -1,0 +1,68 @@
+[0m13:55:14.553630 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002403E04D210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002403E04FA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002403E06A4D0>]}
+
+
+============================== 13:55:14.567709 | 0800f56d-e415-4951-abd4-124a26f63643 ==============================
+[0m13:55:14.567709 [info ] [MainThread]: Running with dbt=1.9.4
+[0m13:55:14.571878 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init sales_analytics', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:55:14.664340 [debug] [MainThread]: Starter project path: C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m13:55:14.929321 [info ] [MainThread]: 
+Your new dbt project "sales_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:55:14.931862 [info ] [MainThread]: Setting up your profile.
+[0m13:58:46.349766 [info ] [MainThread]: Profile sales_analytics written to C:\Users\Lenovo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:58:46.353326 [debug] [MainThread]: Command `dbt init` succeeded at 13:58:46.352290 after 212.05 seconds
+[0m13:58:46.354300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002403E01D3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002403E068F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002403E06A4D0>]}
+[0m13:58:46.355298 [debug] [MainThread]: Flushing usage events
+[0m13:58:47.269289 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:01:39.153767 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8B22DB5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8B21E4ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8B2309750>]}
+
+
+============================== 15:01:39.477269 | 4604344a-dc89-449d-81d1-53b9fe3b6051 ==============================
+[0m15:01:39.477269 [info ] [MainThread]: Running with dbt=1.9.4
+[0m15:01:39.481203 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:01:39.549308 [info ] [MainThread]: dbt version: 1.9.4
+[0m15:01:39.551309 [info ] [MainThread]: python version: 3.11.1
+[0m15:01:39.553311 [info ] [MainThread]: python path: C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\python.exe
+[0m15:01:39.556310 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m15:01:42.320782 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m15:01:42.321959 [info ] [MainThread]: Using profiles dir at C:\Users\Lenovo\.dbt
+[0m15:01:42.322973 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo\.dbt\profiles.yml
+[0m15:01:42.323970 [info ] [MainThread]: Using dbt_project.yml file at F:\Projects\bigQuery-dbt\dbt_project.yml
+[0m15:01:42.324972 [info ] [MainThread]: Configuration:
+[0m15:01:42.325973 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:01:42.325973 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:01:42.326971 [info ] [MainThread]: Required dependencies:
+[0m15:01:42.327973 [debug] [MainThread]: Executing "git --help"
+[0m15:01:42.783200 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:01:42.784205 [debug] [MainThread]: STDERR: "b''"
+[0m15:01:42.785207 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:01:42.785207 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:01:42.786431 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:01:42.787446 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "snowflake_data_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m15:01:42.789446 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <F:\Projects\bigQuery-dbt\dbt_project.yml> not found
+
+[0m15:01:42.790444 [debug] [MainThread]: Command `dbt debug` failed at 15:01:42.790444 after 3.74 seconds
+[0m15:01:42.791485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8B232ADD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB65E390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB65EFD0>]}
+[0m15:01:42.791485 [debug] [MainThread]: Flushing usage events
+[0m15:01:43.486868 [debug] [MainThread]: An error was encountered while trying to flush usage events
